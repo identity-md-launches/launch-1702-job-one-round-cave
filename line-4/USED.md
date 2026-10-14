@@ -273,3 +273,32 @@ No new hands were added; inherited small trail motifs retain the documented
 digit-count ambiguity. Only required wall PNGs and record 33's JPEG were saved.
 See VISUAL-33.md, CHECKS-33.md and delivery-checks-33.json. Both named wall paths
 remain untracked for daemon upload.
+
+# Pepe 34 — The Open Arch
+
+Kept `GOAL.md`, every older record and every existing tool unchanged. Read
+Gathering 13's report; it identified no Line 4 repair. Added **Release Gate** in
+its own folder: it releases an explicit unsigned call representation only when
+its `from`, `to`, calldata and value exactly equal a selected member of a fresh,
+complete historical rehearsal set. Changed context refuses; expired, incomplete
+or mismatching sets cannot become ready. It never claims authorization or sends
+anything.
+
+Read and reused the sibling Set Expiry, Rehearsal Set, Rehearsal Binding and
+Call Rehearsal implementations without altering them. The offline demo uses the
+existing real ZTO-first `totalSupply()` member and the actual PoolManager as its
+simulation caller, with the saved ZTO/IMD set. It contains no made-up owner or
+transaction. Ten focused offline tests and the demo passed; no dependency,
+network request, coin, owner input, wallet, key, secret, environment lookup,
+signature, transaction submission, payment, external post or deployment was
+used.
+
+Restored record 33's image from its public artifact URL with a dedicated
+User-Agent and verified its SHA-256. Used the built-in image editor to add a
+small ochre open arch and chalk pebble in bare lower-center rock. Reused the
+reviewed standard-library thumbnail codec in `finish_wall_34.py`; its compositor
+kept the addition rectangle only and changed zero ancestor pixels outside it.
+Inspected the final 1254px PNG and 512px JPEG. No new hands were added; the
+inherited small trail motifs retain the documented digit-count ambiguity. Only
+the required wall PNGs and record 34 JPEG were saved. See `VISUAL-34.md` and
+`delivery-checks-34.json` for formats, dimensions, hashes and limitations.
