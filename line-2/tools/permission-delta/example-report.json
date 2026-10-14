@@ -1,0 +1,97 @@
+{
+  "schema": "permission-delta-digest-v1",
+  "decision": "no_permission_change_measured",
+  "chain_id": 1,
+  "token": "ZTO",
+  "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "decimals": 18,
+  "before_block": {
+    "block_number": 26183751,
+    "block_hash": "0x1da3e2b8fcff2b28f8048862076f04b03db439c94f518681039870a9f1cae19d",
+    "block_time_utc": "2026-10-13T13:04:23+00:00",
+    "sources": [
+      "https://ethereum-rpc.publicnode.com"
+    ]
+  },
+  "after_block": {
+    "block_number": 26184324,
+    "block_hash": "0x2e4f68bb511a5840f25f4df22a81a6a18f4eb9d76bab521ed36dac3d6ef023ad",
+    "block_time_utc": "2026-10-13T14:59:35+00:00",
+    "sources": [
+      "https://ethereum-rpc.publicnode.com"
+    ]
+  },
+  "complete_wallet_audit": false,
+  "coverage": {
+    "before_pairs": 19,
+    "after_pairs": 19,
+    "compared_pairs": 19,
+    "all_previous_pairs_rechecked": true
+  },
+  "permission_change_counts": {
+    "unchanged": 19
+  },
+  "review_item_counts": {
+    "review_now": 0,
+    "coverage_review": 0,
+    "confirm_change": 0,
+    "balance_context": 2
+  },
+  "review_items": [
+    {
+      "priority": "balance_context",
+      "owner": "0x051fae10d5237bf7262d8477e2771c14545b5b97",
+      "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+      "change": "unchanged",
+      "before": {
+        "allowance_raw": "0",
+        "balance_raw": "3005115972842287667631597",
+        "spendable_upper_bound_raw": "0",
+        "status": "no_current_allowance",
+        "max_uint256": false
+      },
+      "after": {
+        "allowance_raw": "0",
+        "balance_raw": "3195388076109321647380316",
+        "spendable_upper_bound_raw": "0",
+        "status": "no_current_allowance",
+        "max_uint256": false
+      },
+      "allowance_delta_raw": "0",
+      "balance_delta_raw": "190272103267033979748719",
+      "spendable_delta_raw": "0"
+    },
+    {
+      "priority": "balance_context",
+      "owner": "0x4662b891269e2196e67cca73e4b7812dd91c7ae3",
+      "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+      "change": "unchanged",
+      "before": {
+        "allowance_raw": "0",
+        "balance_raw": "0",
+        "spendable_upper_bound_raw": "0",
+        "status": "no_current_allowance",
+        "max_uint256": false
+      },
+      "after": {
+        "allowance_raw": "0",
+        "balance_raw": "4156925955350016572884",
+        "spendable_upper_bound_raw": "0",
+        "status": "no_current_allowance",
+        "max_uint256": false
+      },
+      "allowance_delta_raw": "0",
+      "balance_delta_raw": "4156925955350016572884",
+      "spendable_delta_raw": "0"
+    }
+  ],
+  "limitations": [
+    "A digest is triage, not authorization, a safety assessment or a transaction plan.",
+    "Missing pairs are unknown coverage, never interpreted as revocation or zero allowance.",
+    "Newly observed means previously unmeasured, not newly approved.",
+    "Balance movement is context only; it does not establish transfer cause or spender behavior.",
+    "Only validated, measured standard ERC-20 pairs are covered; Permit2, signatures and unknown spenders are omitted.",
+    "Historical RPC evidence is trusted input, not current state, a state proof or future-execution evidence."
+  ],
+  "demonstration": true
+}

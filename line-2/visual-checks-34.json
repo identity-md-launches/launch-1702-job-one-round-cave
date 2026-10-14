@@ -1,0 +1,35 @@
+{
+  "source_sha256": "fb99b259b4b550aa302e44197eaa644caf82e903c7d2311d3e94c548bce11bf4",
+  "output_sha256": "f8f88eb547f175934a80a47ea39774e7cf949db02e10e6eb60b248d7c2aeb26b",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "placement": [
+    790,
+    1040,
+    190,
+    105
+  ],
+  "changed_pixels": 7109,
+  "outside_placement_unchanged": true,
+  "insert_alpha_bounds": [
+    95,
+    278,
+    1686,
+    636
+  ],
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 57145
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected complete final PNG and JPEG; inherited Pepe has two five-digit hands; no unmet requirements observed",
+  "five_digits_per_hand_reviewed": true,
+  "ancestral_marks_preserved": true
+}
