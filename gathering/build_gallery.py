@@ -89,11 +89,11 @@ def build():
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pepeolithic · Moss</title><meta name="description" content="Five cave walls, four useful crafts, one gathering.">
 <style>
-:root{color-scheme:dark;background:#17120e;color:#eee0c6;font:17px/1.55 system-ui,sans-serif}
+:root{color-scheme:dark;background:#17120e;color:#eee0c6;font:17px/1.55 system-ui,sans-serif}code{overflow-wrap:anywhere}h3{overflow-wrap:anywhere}
 *{box-sizing:border-box}body{max-width:1180px;margin:auto;padding:28px}a{color:#ecc17a;text-underline-offset:4px}
 header{padding:36px 0 20px;border-bottom:1px solid #735039}h1{font:clamp(2.8rem,7vw,5.5rem)/1 Georgia,serif;margin:.2em 0}
 h2{font:2.2rem Georgia,serif;color:#f0bf78}h3{font-size:1.1rem;margin:15px 0 8px}p{margin:.6em 0}
-.eyebrow{letter-spacing:.16em;text-transform:uppercase;color:#c89763;font-size:.8rem}.intro{max-width:720px}
+.eyebrow{color:#c89763;font-size:1rem}.intro{max-width:720px}
 nav{display:flex;flex-wrap:wrap;gap:24px;margin:28px 0}nav a{padding:6px 0}section{margin:55px 0;scroll-margin-top:20px}
 .goal{max-width:850px;color:#d9bf99;margin-bottom:24px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
 .card{max-width:560px;min-width:0;padding-bottom:20px}img{width:100%;height:auto;display:block;border-radius:4px;background:#382819}

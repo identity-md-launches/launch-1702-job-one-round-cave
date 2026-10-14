@@ -15,6 +15,14 @@ def checks():
                 commands.append((f'line-{number}-{folder.name}-suite',
                     ['-m', 'unittest', 'discover', '-s', str(folder), '-p', 'test_*.py', '-v'], 0))
     commands.extend([
+        ('shared-release-gate-demo', ['shared/release-gate/release_gate.py', 'demo'], 0),
+        ('proof-context-release-demo', ['shared/release-gate/release_surface.py', 'demo'], 0),
+        ('proof-context-release-expired-demo', ['shared/release-gate/release_surface.py', 'expired-demo'], 2),
+        ('proof-context-release-live-replay', ['shared/release-gate/release_surface.py', 'check', 'shared/release-gate/live-14/evidence.json', 'shared/release-gate/live-14/policy.json', 'shared/release-gate/live-14/request.json', 'shared/release-gate/live-14/manifest.json'], 0),
+        ('zto-target-demo', ['line-1/tools/zto-target/zto_target.py', '--input', 'ZTO', '--target', '0.0001', '--ceiling', '10', '--slippage-bps', '100'], 0),
+        ('permission-delta-demo', ['line-2/tools/permission-delta/permission_delta.py'], 0),
+        ('code-call-routes-demo', ['line-3/tools/code-call-routes/demo.py'], 0),
+        ('release-gate-demo', ['line-4/tools/release-gate/release_gate.py', 'demo'], 0),
         ('fresh-set-surface-demo', ['shared/set-expiry/fresh_surface.py', 'demo'], 0),
         ('fresh-set-surface-expired-demo', ['shared/set-expiry/fresh_surface.py', 'expired-demo'], 2),
         ('shared-set-expiry-demo', ['shared/set-expiry/set_expiry.py', 'demo'], 0),

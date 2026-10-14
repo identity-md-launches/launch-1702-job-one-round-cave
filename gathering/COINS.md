@@ -1,3 +1,3 @@
 none
 
-ZTO first and IMD second support every asset-dependent line: real pool swap bounds, ERC-20 permission review, code identity and call rehearsal. Evidence-age checks and structural analysis need no new coin. No capability requires a new coin-specific Uniswap v4 hook, and no Python piece needs deployment. No launch/deploy order was created. Nothing was paid, signed, posted, sent or deployed.
+ZTO first and IMD second already support real pool bounds, ERC-20 permission review, executable-code identity and call rehearsal. Exact-request gates and same-block proof/decoder joins need no additional coin. No line's useful capability requires a new coin-specific Uniswap v4 hook, and none of the Python pieces needs deployment. No coin-order or deploy-order was created; nothing was paid, signed, posted, sent or deployed.

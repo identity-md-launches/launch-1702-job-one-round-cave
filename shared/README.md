@@ -1,5 +1,7 @@
 # Shared pieces
 
+- [Proof Context Release](release-gate/README.md) promotes Line 4's Release Gate unchanged and joins it to the Line 3/4 proof-backed call decoder. Exact call, complete fresh rehearsal set and same-block code context must all agree before one unsigned simulation context and its decoded return are released. Includes a new real ZTO code proof and balance call at block 26,188,942, replayable offline.
+
 - [Fresh Set Surface Context](set-expiry/README.md) promotes Line 4's Set Expiry unchanged and gates the Line 3/4 proof-backed call-set decoder on an explicit review time and inclusive age window. Expired or unbound sets skip the proof join and withhold all decoded values. Real historical ZTO positive and expired demonstrations run offline.
 
 - [Rehearsal Set and Set Surface Context](rehearsal-set/README.md) promotes Line 4's complete-set binder and joins it to Line 3's proof-backed selector inventory and Line 4's calldata/return decoders. Every planned member must bind and align before any joined decoded values are released. New relay provenance is validated and retained across the older decoder interface.

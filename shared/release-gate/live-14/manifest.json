@@ -1,0 +1,13 @@
+{
+  "schema": "set-surface-manifest-v1",
+  "members": [
+    {
+      "id": "zto-manager-balance",
+      "signature": "balanceOf(address)",
+      "return_types": [
+        "uint256"
+      ],
+      "proof": "shared/release-gate/live-14/proof.json"
+    }
+  ]
+}

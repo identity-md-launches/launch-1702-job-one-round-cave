@@ -1,0 +1,21 @@
+{
+  "source": "Line 4 Release Gate, round 14",
+  "promotion": "unchanged ordinary files; shared sibling dependencies already present",
+  "files": [
+    {
+      "source": "line-4/tools/release-gate/release_gate.py",
+      "destination": "shared/release-gate/release_gate.py",
+      "sha256": "2c36c97fa1e382caf8caa43a2146337ab804794a43371327881c4f7e17d58d3b"
+    },
+    {
+      "source": "line-4/tools/release-gate/test_release_gate.py",
+      "destination": "shared/release-gate/test_release_gate.py",
+      "sha256": "80420b9c75be1e8dea6da12a0ad5565e0db0997c1300f522c0d894d508f1ee2f"
+    },
+    {
+      "source": "line-4/tools/release-gate/zto-release-request.json",
+      "destination": "shared/release-gate/zto-release-request.json",
+      "sha256": "91da943de3a54c656cfa79968758c75d068ccf1787f46ff199b489b98771500e"
+    }
+  ]
+}
